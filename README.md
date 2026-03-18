@@ -10,12 +10,12 @@ SOLID is an acronym for five object-oriented design principles that help develop
 
 | Letter | Principle | Short Description |
 |--------|-----------|-------------------|
-| **S** | **S**ingle Responsibility Principle (SRP) | A class should have only one reason to change. |
-| **O** | **O**pen/Closed Principle (OCP) | Software entities should be open for extension but closed for modification. |
-| **L** | **L**iskov Substitution Principle (LSP) | Subtypes must be substitutable for their base types without altering the correctness of the program. |
-| **I** | **I**nterface Segregation Principle (ISP) | Clients should not be forced to depend on interfaces they do not use. |
-| **D** | **D**ependency Inversion Principle (DIP) | High-level modules should not depend on low-level modules; both should depend on abstractions. |
-
+| [**S**](----S) | **S**ingle Responsibility Principle (SRP) | A class should have only one reason to change. |
+| [**O**](---O) | **O**pen/Closed Principle (OCP) | Software entities should be open for extension but closed for modification. |
+| [**L**](--L) | **L**iskov Substitution Principle (LSP) | Subtypes must be substitutable for their base types without altering the correctness of the program. |
+| [**I**](-I) | **I**nterface Segregation Principle (ISP) | Clients should not be forced to depend on interfaces they do not use. |
+| [**D**](D) | **D**ependency Inversion Principle (DIP) | High-level modules should not depend on low-level modules; both should depend on abstractions. |
+| [**SOLID**](SOLID) | **SOLID** | Applying every SOLID principle. |
 ---
 
 ## Repository Structure
@@ -54,7 +54,3 @@ All code examples are written in **C#**.
 3. Compare the `Before` and `After` projects to see the refactoring changes.
 
 ---
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
